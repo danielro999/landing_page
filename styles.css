@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header{
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-top: 0%;
+    background-color: rgb(13, 13, 60);
+    justify-content: space-around;
+}
+
+.up, .down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    padding: 10px;
+}
+
+img{
+    width: 300px;
+}
+
+.info{
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.imagenes img{
+    width: 100px;
+    margin: 20px;
+}
+
+.frase{
+    background-color: gray;
+}
+
+.action{
+    margin: 30px;
+    display: flex;
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    justify-content: space-around;
+}
+
+.footer{
+    background-color: rgb(13, 13, 60);
+    text-align: center;
+    color: white;
+}
